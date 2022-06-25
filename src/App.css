@@ -1,0 +1,54 @@
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  padding: 20px;
+  width: 300px;
+  border: 1px solid #ccc;
+  height: 70vh;
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.form,
+.form-search {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  margin-bottom: 20px;
+}
+
+.form input,
+.form button {
+  flex-grow: 1;
+}
+
+.form-search button,
+.form-search input {
+  flex-grow: 1;
+}
+
+.list {
+  width: 100%;
+}
+
+.list p {
+  text-align: center;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.list-item p.completed {
+  text-decoration: line-through;
+}
